@@ -1,0 +1,221 @@
+
+body{
+    font-family:'Montserrat' , sans-serif;
+    background:linear-gradient( #BF6024 ,#C85810,#E15B04);
+   }
+header{
+    background:url("fundo.png.png");
+    height: 300px;
+}
+.banner{
+    width: 100%;
+    margin: 0 auto;
+}
+img{
+    height: 450px;
+    right: 150px;
+    margin-left: 50px;
+    padding: 150px auto;
+ }
+ .itens-head nav{
+     position: absolute;
+     right: 0;
+     top: 150px;
+ }
+.itens-head nav li {
+    display: inline;
+    margin: auto 20px;
+    margin-right: 50px;
+    position: relative; 
+}
+.itens-head nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: bold;
+    padding: 10px 5px;
+    background-color: #ff884d;
+    border: none;
+    padding: 10px 10px; 
+    border-radius: 5px;      
+}
+.itens-head nav a:hover{
+    background-color: #CCCCCC;
+    transition: 500ms;
+}
+.titulo-principal{
+   text-align: center;
+   margin: 90px 0 0 0 ;
+   font-size: 50px;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.conteudo-destaques{
+    border: 9px solid black;
+    box-sizing: border-box;
+    margin: 30px 0 0 0;
+    border-radius: 300px;
+    margin: 2em 0;
+}
+.conteudo-destaques:hover{
+    border-color:#f16e2c;
+    transition: 600ms;
+}
+.sub-titulo{
+    display: inline-block;
+    vertical-align: top;
+    margin: 70px auto;
+    font-size: 40px;
+    font-weight: bold;
+}
+.imagem-albuns{
+    margin: 50px 150px;
+    height: 300px;
+    float: left;
+    box-shadow: 10px 10px 5px;
+    box-sizing: border-box;
+    padding: auto 0;
+}
+.itens-linkinpark{
+    margin: 5px;
+}
+.itens{
+    line-height: 1.5;
+    font-size: 25px;
+}
+.botao-ouça{
+    line-height: 3.0;
+    font-size: 27px;
+
+}
+.botao-ouça a{
+    border:none;
+    border-radius: 35px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: black;
+    color: #BF6024;
+}
+.itens-linkinpark a{
+    text-transform: uppercase;
+}
+.itens-linkinpark a:hover{
+  font-weight: bold;
+  transition:400ms;
+   background-color: #CCCCCC;
+}
+.itens-linkinpark a:active{
+  color: green;
+  
+}
+.conteudo02{
+    padding: auto;
+    border: 9px solid black;
+    box-sizing: border-box;
+    margin: 30px 0 0 0;
+    border-radius: 300px;
+    margin: 2em 0;
+}
+.conteudo02:hover{
+    border-color:#f16e2c;
+    transition: 600ms;
+}
+.conteudo02:active{
+    color: green;
+   
+}
+.conteudo03{
+    padding: auto;
+    border: 9px solid black;
+    box-sizing: border-box;
+    margin: 30px 0 0 0;
+    border-radius: 300px;
+    margin: 2em 0;
+}
+.conteudo03:hover{
+    border-color:#f16e2c;
+    transition: 600ms;
+}
+.conteudo03:active{
+    color: green;
+}
+form{
+    margin: 40px 20px;
+}
+form label , form legend{
+    display: block;
+    font-size: 30px;
+    margin: 10px 0 10px;
+}
+.padrao-input{
+    margin: 0 0 10px;
+    padding: 20px 25px;
+    width: 50%;
+    font-size: 30px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 10px 10px 3px;
+}   
+textarea{
+    display: block;
+    font-size: 25px;
+    margin: 20px 0 20px;
+    box-shadow: 10px 10px 3px;
+}
+select{
+    height: 40px;
+    font-size: 25px;
+}
+.checkbox{
+    margin: 20px 0;
+    padding: 20px auto;
+}
+.enviar{
+    width: 30%;
+    padding: 20px;
+    font-size: 25px;
+    color: #C85810;
+    background-color: black;
+    border-radius: 30px;
+    border: none;
+}
+.enviar:hover{
+    background-color: #CCCCCC;
+    transition: 400ms;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+table{
+    font-size: 30px;
+    margin: 0 0 40px 50px;
+    border: 5px solid black;
+}
+table thead{
+    text-transform: uppercase;
+}
+table td,th{
+    border: 2px solid black;
+    padding: 8px 6px;
+}
+table:hover{
+    font-weight: bold;
+    color: #CCCCCC;
+    transition: 1s;
+    box-sizing: border-box;
+}
+footer{
+   background: url("fundo.png.png");
+    height: 100%;    
+}
+.img-footer{
+   text-align: center;
+
+}
+.copy{
+    color: white;
+    font-size: 25px;
+    padding-left: 75px;
+    margin: 0 0 5px;
+    
+}  
